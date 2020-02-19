@@ -3,7 +3,8 @@
 html, body {
     height: 100%;
     font-family: cursive;
-    background-color: seagreen;
+    background-color: gray;
+    color: white;
     margin: 0;
     padding: 0;
     font-family: 'Libre Baskerville', serif;
@@ -15,12 +16,15 @@ html, body {
 }
 
 header {
-    border: 2px solid darkgreen;
-    background-color: forestgreen;
+    text-align: center;
+    vertical-align: center;
+    background-color: silver;
+    height: 15%;
+    padding-top: 20px;
 }
 
-p {
-    color: blue;
+header p {
+    font-size: 1.5em;
 }
 
 .img-flx {
@@ -29,7 +33,7 @@ p {
 }
 
 img {
-    height: 65%;
+    height: 95%;
     width: 65%;
     margin: 0 auto;
   /*margin-left: 100px ;*/
